@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="African Children Initiative — Empowering African children through education, health, and opportunity. Donate today and change a life forever." />
+  <meta name="keywords" content="African Children Initiative, donate, charity, Africa, children, education, health" />
+  <meta property="og:title" content="African Children Initiative — Change a Life Today" />
+  <meta property="og:description" content="Every donation brings a child closer to their dreams. Join us in transforming lives across Africa." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1200" />
+  <meta property="og:type" content="website" />
+  <title>African Children Initiative | Donate & Change Lives</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Paystack Inline JS -->
+  <!-- ✅ LIVE: https://js.paystack.co/v1/inline.js -->
+  <!-- ✅ TEST: https://js.paystack.co/v1/inline.js (same script, key controls mode) -->
+  <script src="https://js.paystack.co/v2/inline.js"></script>
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+  ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="#" class="nav-logo">
+        <div class="logo-icon">
+          <i class="fas fa-hands-holding-child"></i>
+        </div>
+        <div class="logo-text">
+          <span class="logo-main">African Children</span>
+          <span class="logo-sub">Initiative</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#impact" class="nav-link">Our Impact</a></li>
+        <li><a href="#programs" class="nav-link">Programs</a></li>
+        <li><a href="#stories" class="nav-link">Stories</a></li>
+        <li><a href="#donate" class="nav-link nav-donate-btn">
+          <i class="fas fa-heart"></i> Donate Now
+        </a></li>
+      </ul>
+
+      <!-- Mobile Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="home">
+    <!-- Animated Background Particles -->
+    <div class="hero-particles" id="heroParticles"></div>
+
+    <!-- Hero Background Slideshow -->
+    <div class="hero-bg-slider">
+      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1600&q=80')"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1600&q=80')"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1516534775068-ba3e7458af70?w=1600&q=80')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-star"></i>
+        <span>Trusted by 10,000+ Donors Worldwide</span>
+      </div>
+
+      <h1 class="hero-title">
+        Every Child Deserves<br />
+        <span class="hero-title-highlight">A Bright Future</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Join the African Children Initiative in transforming lives through education,
+        healthcare, and opportunity. Your donation today writes a child's success story tomorrow.
+      </p>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-number" data-target="50000">0</span>
+          <span class="stat-label">Children Reached</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-number" data-target="32">0</span>
+          <span class="stat-label">African Countries</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-number" data-target="15">0</span>
+          <span class="stat-label">Years of Impact</span>
+        </div>
+      </div>
+
+      <div class="hero-cta-group">
+        <a href="#donate" class="btn btn-primary btn-hero">
+          <i class="fas fa-heart"></i>
+          Donate Now
+        </a>
+        <a href="#about" class="btn btn-ghost btn-hero">
+          <i class="fas fa-play-circle"></i>
+          Our Story
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll Down Indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       URGENT APPEAL TICKER
+  ============================================================ -->
+  <div class="urgent-ticker">
+    <div class="ticker-label">
+      <i class="fas fa-bullhorn"></i> LIVE
+    </div>
+    <div class="ticker-track">
+      <div class="ticker-content">
+        <span>🌍 Help us feed 500 children this month &nbsp;|&nbsp;</span>
+        <span>📚 School supplies drive ongoing in 5 countries &nbsp;|&nbsp;</span>
+        <span>💊 Medical camp needs your support &nbsp;|&nbsp;</span>
+        <span>🏫 New school opening in Nairobi — donate today &nbsp;|&nbsp;</span>
+        <span>❤️ Every ₦500 provides a meal for a child &nbsp;|&nbsp;</span>
+        <span>🌍 Help us feed 500 children this month &nbsp;|&nbsp;</span>
+        <span>📚 School supplies drive ongoing in 5 countries &nbsp;|&nbsp;</span>
+        <span>💊 Medical camp needs your support &nbsp;|&nbsp;</span>
+        <span>🏫 New school opening in Nairobi — donate today &nbsp;|&nbsp;</span>
+        <span>❤️ Every ₦500 provides a meal for a child &nbsp;|&nbsp;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- About Images -->
+        <div class="about-images" data-aos="fade-right">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=600&q=80" alt="Happy African children in school" loading="lazy" />
+            <div class="about-img-badge">
+              <span class="badge-number">15+</span>
+              <span class="badge-text">Years of Service</span>
+            </div>
+          </div>
+          <div class="about-img-secondary">
+            <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?w=400&q=80" alt="Children receiving education" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- About Content -->
+        <div class="about-content" data-aos="fade-left">
+          <div class="section-label">
+            <i class="fas fa-seedling"></i> About Us
+          </div>
+          <h2 class="section-title">
+            We Believe in the Power of<br />
+            <span class="text-accent">Every African Child</span>
+          </h2>
+          <p class="about-text">
+            The African Children Initiative was founded in 2009 with a simple but powerful belief:
+            every child born on African soil deserves access to quality education, proper healthcare,
+            nutrition, and a safe environment to grow and thrive.
+          </p>
+          <p class="about-text">
+            Over 15 years, we've built schools, trained teachers, funded medical camps,
+            provided clean water, and distributed millions of meals across 32 African nations —
+            all powered by compassionate donors like you.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar">
+              <div class="pillar-icon education">
+                <i class="fas fa-book-open"></i>
+              </div>
+              <div>
+                <h4>Education First</h4>
+                <p>Building schools and providing scholarships</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon health">
+                <i class="fas fa-heart-pulse"></i>
+              </div>
+              <div>
+                <h4>Health & Nutrition</h4>
+                <p>Medical camps, vaccines, and meals</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon safety">
+                <i class="fas fa-shield-heart"></i>
+              </div>
+              <div>
+                <h4>Safety & Protection</h4>
+                <p>Shelters and child protection programs</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#donate" class="btn btn-primary">
+            <i class="fas fa-hands-holding-heart"></i>
+            Support Our Mission
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       IMPACT SECTION
+  ============================================================ -->
+  <section class="impact-section" id="impact">
+    <div class="impact-bg-overlay"></div>
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-label light">
+          <i class="fas fa-chart-line"></i> Our Impact
+        </div>
+        <h2 class="section-title light">
+          Real Numbers,<br /><span class="text-accent-light">Real Lives Changed</span>
+        </h2>
+        <p class="section-subtitle light">
+          Your generosity translates directly into measurable, life-changing impact across Africa.
+        </p>
+      </div>
+
+      <div class="impact-grid">
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="0">
+          <div class="impact-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="impact-number" data-target="12000">0</div>
+          <div class="impact-label">Scholarships Awarded</div>
+          <div class="impact-desc">Full and partial scholarships from primary to university level</div>
+        </div>
+
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="impact-icon">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="impact-number" data-target="87">0</div>
+          <div class="impact-label">Schools Built</div>
+          <div class="impact-desc">Fully equipped schools across rural and urban communities</div>
+        </div>
+
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="impact-icon">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <div class="impact-number" data-target="2500000">0</div>
+          <div class="impact-label">Meals Served</div>
+          <div class="impact-desc">Hot nutritious meals served to children daily in schools</div>
+        </div>
+
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="impact-icon">
+            <i class="fas fa-syringe"></i>
+          </div>
+          <div class="impact-number" data-target="35000">0</div>
+          <div class="impact-label">Children Vaccinated</div>
+          <div class="impact-desc">Life-saving vaccines administered through mobile clinics</div>
+        </div>
+
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="impact-icon">
+            <i class="fas fa-tint"></i>
+          </div>
+          <div class="impact-number" data-target="410">0</div>
+          <div class="impact-label">Clean Water Wells</div>
+          <div class="impact-desc">Boreholes and water systems installed in remote villages</div>
+        </div>
+
+        <div class="impact-card" data-aos="zoom-in" data-aos-delay="500">
+          <div class="impact-icon">
+            <i class="fas fa-home"></i>
+          </div>
+          <div class="impact-number" data-target="1200">0</div>
+          <div class="impact-label">Shelter Provided</div>
+          <div class="impact-desc">Safe homes for orphaned and vulnerable children</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROGRAMS SECTION
+  ============================================================ -->
+  <section class="programs-section" id="programs">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-label">
+          <i class="fas fa-tasks"></i> Our Programs
+        </div>
+        <h2 class="section-title">
+          What Your Donation<br />
+          <span class="text-accent">Makes Possible</span>
+        </h2>
+        <p class="section-subtitle">
+          Every naira you give is channeled into one of our core programs, each designed
+          to create lasting change in a child's life.
+        </p>
+      </div>
+
+      <div class="programs-grid">
+        <!-- Program 1: Education -->
+        <div class="program-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="program-image">
+            <img src="https://images.unsplash.com/photo-1497375638960-ca368c7231e4?w=600&q=80" alt="Education program" loading="lazy" />
+            <div class="program-overlay">
+              <a href="#donate" class="btn btn-white btn-sm">Support This</a>
+            </div>
+          </div>
+          <div class="program-body">
+            <div class="program-tag education-tag">Education</div>
+            <h3 class="program-title">Back to School Initiative</h3>
+            <p class="program-desc">
+              Providing school uniforms, books, stationery, and tuition fees to children
+              from low-income families across Nigeria, Ghana, and Kenya.
+            </p>
+            <div class="program-goal">
+              <div class="goal-info">
+                <span>Raised: ₦4.2M</span>
+                <span>Goal: ₦10M</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 42%" data-width="42"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Program 2: Health -->
+        <div class="program-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="program-image">
+            <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&q=80" alt="Healthcare program" loading="lazy" />
+            <div class="program-overlay">
+              <a href="#donate" class="btn btn-white btn-sm">Support This</a>
+            </div>
+          </div>
+          <div class="program-body">
+            <div class="program-tag health-tag">Healthcare</div>
+            <h3 class="program-title">Mobile Health Clinics</h3>
+            <p class="program-desc">
+              Deploying mobile medical units to remote communities, providing free
+              checkups, vaccinations, malaria treatment, and maternal health support.
+            </p>
+            <div class="program-goal">
+              <div class="goal-info">
+                <span>Raised: ₦7.8M</span>
+                <span>Goal: ₦15M</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill health-fill" style="width: 52%" data-width="52"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Program 3: Nutrition -->
+        <div class="program-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="program-image">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Nutrition program" loading="lazy" />
+            <div class="program-overlay">
+              <a href="#donate" class="btn btn-white btn-sm">Support This</a>
+            </div>
+          </div>
+          <div class="program-body">
+            <div class="program-tag nutrition-tag">Nutrition</div>
+            <h3 class="program-title">Feed a Child Daily</h3>
+            <p class="program-desc">
+              Our school feeding program ensures over 5,000 children receive at least
+              one nutritious, balanced meal every school day — fighting hunger and
+              improving academic performance.
+            </p>
+            <div class="program-goal">
+              <div class="goal-info">
+                <span>Raised: ₦12.1M</span>
+                <span>Goal: ₦20M</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill nutrition-fill" style="width: 60%" data-width="60"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STORIES / TESTIMONIALS
+  ============================================================ -->
+  <section class="stories-section" id="stories">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-label">
+          <i class="fas fa-quote-left"></i> Stories of Hope
+        </div>
+        <h2 class="section-title">
+          Lives You Have<br />
+          <span class="text-accent">Already Changed</span>
+        </h2>
+      </div>
+
+      <div class="stories-slider" id="storiesSlider">
+        <div class="stories-track" id="storiesTrack">
+          <!-- Story 1 -->
+          <div class="story-card">
+            <div class="story-image">
+              <img src="https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=300&q=80" alt="Amina's story" loading="lazy" />
+            </div>
+            <div class="story-content">
+              <div class="story-quote"><i class="fas fa-quote-left"></i></div>
+              <p class="story-text">
+                "Before ACI found me, I had dropped out of school to help my mother sell
+                water by the roadside. Today, I am in my final year of medicine at the
+                University of Lagos. I am proof that one donation can change a destiny."
+              </p>
+              <div class="story-author">
+                <strong>Amina O.</strong>
+                <span>Medical Student, Lagos, Nigeria</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Story 2 -->
+          <div class="story-card">
+            <div class="story-image">
+              <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=300&q=80" alt="Kofi's story" loading="lazy" />
+            </div>
+            <div class="story-content">
+              <div class="story-quote"><i class="fas fa-quote-left"></i></div>
+              <p class="story-text">
+                "The mobile clinic saved my son's life. He had severe malaria and we
+                couldn't afford the hospital. The ACI team came to our village, treated
+                him for free, and today he is healthy and in school. God bless every donor."
+              </p>
+              <div class="story-author">
+                <strong>Kofi Mensah</strong>
+                <span>Father of 3, Kumasi, Ghana</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Story 3 -->
+          <div class="story-card">
+            <div class="story-image">
+              <img src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3?w=300&q=80" alt="Fatuma's story" loading="lazy" />
+            </div>
+            <div class="story-content">
+              <div class="story-quote"><i class="fas fa-quote-left"></i></div>
+              <p class="story-text">
+                "I used to walk 8km every day to fetch water. Now we have a borehole
+                right in our village built by ACI. I now have time to study after school.
+                I want to be an engineer and build more water systems for my people."
+              </p>
+              <div class="story-author">
+                <strong>Fatuma K.</strong>
+                <span>Student, Age 14, Nairobi, Kenya</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevStory" aria-label="Previous story">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="slider-dots" id="sliderDots">
+            <button class="dot active" data-index="0"></button>
+            <button class="dot" data-index="1"></button>
+            <button class="dot" data-index="2"></button>
+          </div>
+          <button class="slider-btn" id="nextStory" aria-label="Next story">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DONATION SECTION — MAIN ATM-STYLE PANEL
+  ============================================================ -->
+  <section class="donate-section" id="donate">
+    <!-- Background Effects -->
+    <div class="donate-bg-effect"></div>
+    <div class="donate-scanlines"></div>
+
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-label light">
+          <i class="fas fa-heart"></i> Donate Now
+        </div>
+        <h2 class="section-title light">
+          Make Your Donation<br />
+          <span class="text-accent-light">Count Forever</span>
+        </h2>
+        <p class="section-subtitle light">
+          100% secure payments powered by Paystack. Choose a one-time gift or
+          become a monthly hero with a recurring donation.
+        </p>
+      </div>
+
+      <!-- ===== MAIN DONATION CARD ===== -->
+      <div class="donation-card" id="donationCard">
+
+        <!-- Card Header / Mode Toggle -->
+        <div class="card-header">
+          <div class="card-logo">
+            <i class="fas fa-hands-holding-child"></i>
+            <span>ACI Secure Donations</span>
+          </div>
+          <div class="mode-toggle-wrapper">
+            <button class="mode-btn active" id="oneTimeBtn" data-mode="one-time">
+              <i class="fas fa-hand-holding-heart"></i>
+              <span>One-Time Gift</span>
+            </button>
+            <button class="mode-btn" id="recurringBtn" data-mode="subscription">
+              <i class="fas fa-rotate"></i>
+              <span>Monthly Hero</span>
+            </button>
+            <div class="toggle-slider"></div>
+          </div>
+        </div>
+
+        <!-- ===== STATE: INITIAL FORM ===== -->
+        <div class="card-body" id="formState">
+
+          <!-- Recurring Mode Info Banner -->
+          <div class="recurring-info-banner" id="recurringBanner" style="display:none;">
+            <div class="banner-icon"><i class="fas fa-info-circle"></i></div>
+            <div class="banner-text">
+              <strong>Become a Monthly Hero!</strong><br />
+              Your card will be charged automatically every month until you cancel.
+              You can cancel anytime from your email link.
+            </div>
+          </div>
+
+          <!-- Donation Preset Amounts -->
+          <div class="preset-section" id="presetSection">
+            <label class="input-label">
+              <i class="fas fa-coins"></i>
+              Select or enter donation amount (NGN)
+            </label>
+            <div class="preset-amounts" id="presetAmounts">
+              <button class="preset-btn" data-amount="1000">
+                <span class="preset-amount">₦1,000</span>
+                <span class="preset-impact">1 meal/week</span>
+              </button>
+              <button class="preset-btn" data-amount="2500">
+                <span class="preset-amount">₦2,500</span>
+                <span class="preset-impact">School supplies</span>
+              </button>
+              <button class="preset-btn active" data-amount="5000">
+                <span class="preset-amount">₦5,000</span>
+                <span class="preset-impact">Monthly food pack</span>
+              </button>
+              <button class="preset-btn" data-amount="10000">
+                <span class="preset-amount">₦10,000</span>
+                <span class="preset-impact">Sponsor a term</span>
+              </button>
+              <button class="preset-btn" data-amount="25000">
+                <span class="preset-amount">₦25,000</span>
+                <span class="preset-impact">Full scholarship</span>
+              </button>
+              <button class="preset-btn custom-preset" data-amount="0">
+                <span class="preset-amount">Custom</span>
+                <span class="preset-impact">Any amount</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Subscription Plans (Hidden by default) -->
+          <div class="plans-section" id="plansSection" style="display:none;">
+            <label class="input-label">
+              <i class="fas fa-calendar-check"></i>
+              Choose Your Monthly Support Plan
+            </label>
+            <div class="plans-grid" id="plansGrid">
+              <!-- Plans are rendered dynamically by JS -->
+              <div class="plans-loading">
+                <div class="spinner"></div>
+                <span>Loading plans...</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Fields -->
+          <form id="donationForm" novalidate>
+
+            <!-- Amount Field (One-Time) -->
+            <div class="form-group" id="amountGroup">
+              <label class="input-label" for="donationAmount">
+                <i class="fas fa-naira-sign"></i>
+                Donation Amount (NGN)
+              </label>
+              <div class="input-wrapper">
+                <span class="input-prefix">₦</span>
+                <input
+                  type="number"
+                  id="donationAmount"
+                  name="amount"
+                  class="form-input"
+                  placeholder="5,000"
+                  min="500"
+                  value="5000"
+                  required
+                />
+              </div>
+              <div class="input-hint" id="amountHint">Minimum donation: ₦500</div>
+              <div class="field-error" id="amountError"></div>
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+              <label class="input-label" for="donorEmail">
+                <i class="fas fa-envelope"></i>
+                Email Address
+              </label>
+              <div class="input-wrapper">
+                <span class="input-icon"><i class="fas fa-envelope"></i></span>
+                <input
+                  type="email"
+                  id="donorEmail"
+                  name="email"
+                  class="form-input"
+                  placeholder="yourname@email.com"
+                  required
+                  autocomplete="email"
+                />
+                <span class="input-valid-icon" id="emailValidIcon"></span>
+              </div>
+              <div class="field-error" id="emailError"></div>
+            </div>
+
+            <!-- Full Name (Optional) -->
+            <div class="form-group">
+              <label class="input-label" for="donorName">
+                <i class="fas fa-user"></i>
+                Full Name <span class="optional">(Optional)</span>
+              </label>
+              <div class="input-wrapper">
+                <span class="input-icon"><i class="fas fa-user"></i></span>
+                <input
+                  type="text"
+                  id="donorName"
+                  name="name"
+                  class="form-input"
+                  placeholder="Your full name"
+                  autocomplete="name"
+                />
+              </div>
+            </div>
+
+            <!-- Dedication / Message (Optional) -->
+            <div class="form-group">
+              <label class="input-label" for="donorMessage">
+                <i class="fas fa-comment-heart"></i>
+                Dedicate This Donation <span class="optional">(Optional)</span>
+              </label>
+              <textarea
+                id="donorMessage"
+                name="message"
+                class="form-textarea"
+                placeholder="In honor of... / In memory of... / Keep up the great work!"
+                rows="2"
+                maxlength="200"
+              ></textarea>
+              <div class="char-count"><span id="charCount">0</span>/200</div>
+            </div>
+
+            <!-- Donation Summary -->
+            <div class="donation-summary" id="donationSummary">
+              <div class="summary-row">
+                <span>Donation Amount</span>
+                <span id="summaryAmount">₦5,000.00</span>
+              </div>
+              <div class="summary-row">
+                <span>Processing Fee</span>
+                <span class="fee-text">Covered by ACI ❤️</span>
+              </div>
+              <div class="summary-divider"></div>
+              <div class="summary-row summary-total">
+                <span>Your Impact</span>
+                <span id="summaryImpact">Monthly food pack for 1 child</span>
+              </div>
+            </div>
+
+            <!-- Consent for Recurring -->
+            <div class="recurring-consent" id="recurringConsent" style="display:none;">
+              <label class="checkbox-label">
+                <input type="checkbox" id="consentCheck" required />
+                <span class="checkbox-custom"></span>
+                <span class="checkbox-text">
+                  I authorize African Children Initiative to charge my card automatically
+                  each month. I understand I can cancel anytime via the link in my email.
+                </span>
+              </label>
+              <div class="field-error" id="consentError"></div>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-donate" id="donateBtn">
+              <div class="btn-content" id="btnContent">
+                <i class="fas fa-heart"></i>
+                <span id="btnText">Donate ₦5,000 Now</span>
+                <i class="fas fa-lock btn-lock"></i>
+              </div>
+              <div class="btn-loader" id="btnLoader" style="display:none;">
+                <div class="btn-spinner"></div>
+                <span>Processing...</span>
+              </div>
+            </button>
+
+            <!-- Security Badges -->
+            <div class="security-row">
+              <div class="security-badge">
+                <i class="fas fa-lock"></i>
+                <span>256-bit SSL</span>
+              </div>
+              <div class="security-badge">
+                <img src="https://website-v3-assets.s3.amazonaws.com/assets/img/hero/Paystack-mark-white-twitter.png"
+                     alt="Paystack" class="paystack-badge" />
+                <span>Secured by Paystack</span>
+              </div>
+              <div class="security-badge">
+                <i class="fas fa-shield-check"></i>
+                <span>PCI Compliant</span>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- ===== STATE: PROCESSING ===== -->
+        <div class="card-body state-panel" id="processingState" style="display:none;">
+          <div class="state-center">
+            <div class="processing-animation">
+              <div class="processing-ring"></div>
+              <div class="processing-ring ring-2"></div>
+              <div class="processing-ring ring-3"></div>
+              <div class="processing-icon">
+                <i class="fas fa-satellite-dish"></i>
+              </div>
+            </div>
+            <h3 class="state-title">Verifying Your Donation</h3>
+            <p class="state-subtitle">
+              Please wait while we confirm your payment securely...
+            </p>
+            <div class="polling-status" id="pollingStatus">
+              Checking payment status... (<span id="pollCount">0</span> attempts)
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== STATE: SUCCESS ===== -->
+        <div class="card-body state-panel" id="successState" style="display:none;">
+          <div class="state-center">
+            <div class="success-animation">
+              <div class="success-circle">
+                <div class="success-check">
+                  <i class="fas fa-check"></i>
+                </div>
+              </div>
+              <div class="success-ripple"></div>
+              <div class="success-ripple ripple-2"></div>
+            </div>
+
+            <h3 class="state-title success-title" id="successTitle">
+              Thank You! Donation Successful 🎉
+            </h3>
+
+            <p class="state-subtitle" id="successMessage">
+              You've just changed a child's life!
+            </p>
+
+            <!-- Success Details Card -->
+            <div class="success-details">
+              <div class="detail-row">
+                <span class="detail-label"><i class="fas fa-receipt"></i> Reference</span>
+                <span class="detail-value mono" id="successRef">—</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label"><i class="fas fa-naira-sign"></i> Amount</span>
+                <span class="detail-value" id="successAmount">—</span>
+              </div>
+              <div class="detail-row" id="successPlanRow" style="display:none;">
+                <span class="detail-label"><i class="fas fa-calendar-check"></i> Plan</span>
+                <span class="detail-value" id="successPlan">—</span>
+              </div>
+              <div class="detail-row" id="successNextRow" style="display:none;">
+                <span class="detail-label"><i class="fas fa-clock"></i> Next Charge</span>
+                <span class="detail-value" id="successNext">—</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label"><i class="fas fa-envelope"></i> Receipt</span>
+                <span class="detail-value" id="successEmail">—</span>
+              </div>
+            </div>
+
+            <!-- Impact Message -->
+            <div class="impact-message" id="impactMessage">
+              <i class="fas fa-star"></i>
+              <span id="impactText">Your donation will provide meals for 5 children for a week!</span>
+            </div>
+
+            <!-- Share Section -->
+            <div class="share-section">
+              <p class="share-label">Spread the love — share your donation:</p>
+              <div class="share-buttons">
+                <button class="share-btn twitter" id="shareTwitter">
+                  <i class="fab fa-x-twitter"></i> Share
+                </button>
+                <button class="share-btn whatsapp" id="shareWhatsapp">
+                  <i class="fab fa-whatsapp"></i> Share
+                </button>
+                <button class="share-btn facebook" id="shareFacebook">
+                  <i class="fab fa-facebook"></i> Share
+                </button>
+              </div>
+            </div>
+
+            <button class="btn btn-outline" id="donateAgainBtn">
+              <i class="fas fa-heart"></i>
+              Donate Again
+            </button>
+          </div>
+        </div>
+
+        <!-- ===== STATE: FAILED ===== -->
+        <div class="card-body state-panel" id="failedState" style="display:none;">
+          <div class="state-center">
+            <div class="failed-animation">
+              <div class="failed-circle">
+                <div class="failed-icon">
+                  <i class="fas fa-times"></i>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="state-title failed-title">Payment Unsuccessful</h3>
+
+            <p class="state-subtitle" id="failedMessage">
+              Your donation could not be completed. No money has been deducted.
+            </p>
+
+            <div class="failed-reasons">
+              <p><strong>Common reasons:</strong></p>
+              <ul>
+                <li><i class="fas fa-circle-dot"></i> Insufficient card balance</li>
+                <li><i class="fas fa-circle-dot"></i> Payment was cancelled</li>
+                <li><i class="fas fa-circle-dot"></i> Network connectivity issue</li>
+                <li><i class="fas fa-circle-dot"></i> Bank declined the transaction</li>
+              </ul>
+            </div>
+
+            <div class="failed-actions">
+              <button class="btn btn-donate" id="retryBtn">
+                <i class="fas fa-rotate-right"></i>
+                Try Again
+              </button>
+              <button class="btn btn-outline" id="changePmBtn">
+                <i class="fas fa-credit-card"></i>
+                Use Different Method
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Footer -->
+        <div class="card-footer">
+          <div class="footer-seals">
+            <span><i class="fas fa-shield-halved"></i> Your data is protected</span>
+            <span><i class="fas fa-lock"></i> End-to-end encrypted</span>
+            <span><i class="fas fa-circle-check"></i> Verified charity</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Side Info Panel -->
+      <div class="donate-side-panel">
+        <div class="side-card impact-calculator">
+          <h4><i class="fas fa-calculator"></i> Your Impact Calculator</h4>
+          <p>With your donation of <strong id="calcAmount">₦5,000</strong>:</p>
+          <ul class="impact-list" id="impactList">
+            <li><i class="fas fa-utensils"></i> Feeds <strong>10 children</strong> for a day</li>
+            <li><i class="fas fa-book"></i> Provides <strong>5 exercise books</strong></li>
+            <li><i class="fas fa-pills"></i> Buys <strong>2 malaria kits</strong></li>
+          </ul>
+        </div>
+
+        <div class="side-card recent-donors">
+          <h4><i class="fas fa-users"></i> Recent Donors</h4>
+          <div class="donors-list" id="recentDonors">
+            <div class="donor-item">
+              <div class="donor-avatar">A</div>
+              <div class="donor-info">
+                <span class="donor-name">Anonymous</span>
+                <span class="donor-amount">₦10,000</span>
+              </div>
+              <span class="donor-time">2 min ago</span>
+            </div>
+            <div class="donor-item">
+              <div class="donor-avatar">C</div>
+              <div class="donor-info">
+                <span class="donor-name">Chidinma O.</span>
+                <span class="donor-amount">₦5,000</span>
+              </div>
+              <span class="donor-time">15 min ago</span>
+            </div>
+            <div class="donor-item">
+              <div class="donor-avatar">E</div>
+              <div class="donor-info">
+                <span class="donor-name">Emmanuel K.</span>
+                <span class="donor-amount">₦25,000</span>
+              </div>
+              <span class="donor-time">1 hr ago</span>
+            </div>
+            <div class="donor-item">
+              <div class="donor-avatar">F</div>
+              <div class="donor-info">
+                <span class="donor-name">Fatima B.</span>
+                <span class="donor-amount">₦2,500</span>
+              </div>
+              <span class="donor-time">3 hrs ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-card transparency">
+          <h4><i class="fas fa-pie-chart"></i> Donation Breakdown</h4>
+          <div class="breakdown-chart">
+            <div class="breakdown-item">
+              <div class="breakdown-bar">
+                <div class="breakdown-fill" style="width: 80%"></div>
+              </div>
+              <div class="breakdown-label">
+                <span>Programs & Field Work</span>
+                <strong>80%</strong>
+              </div>
+            </div>
+            <div class="breakdown-item">
+              <div class="breakdown-bar">
+                <div class="breakdown-fill admin-fill" style="width: 12%"></div>
+              </div>
+              <div class="breakdown-label">
+                <span>Administration</span>
+                <strong>12%</strong>
+              </div>
+            </div>
+            <div class="breakdown-item">
+              <div class="breakdown-bar">
+                <div class="breakdown-fill awareness-fill" style="width: 8%"></div>
+              </div>
+              <div class="breakdown-label">
+                <span>Awareness & Fundraising</span>
+                <strong>8%</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PARTNERS / TRUST LOGOS
+  ============================================================ -->
+  <section class="partners-section">
+    <div class="container">
+      <p class="partners-label">Trusted By & In Partnership With</p>
+      <div class="partners-track">
+        <div class="partners-scroll">
+          <div class="partner-logo">🇺🇳 UNICEF</div>
+          <div class="partner-logo">🌍 African Union</div>
+          <div class="partner-logo">🏥 WHO</div>
+          <div class="partner-logo">📚 UNESCO</div>
+          <div class="partner-logo">🤝 Save the Children</div>
+          <div class="partner-logo">❤️ OXFAM</div>
+          <div class="partner-logo">🇺🇳 UNICEF</div>
+          <div class="partner-logo">🌍 African Union</div>
+          <div class="partner-logo">🏥 WHO</div>
+          <div class="partner-logo">📚 UNESCO</div>
+          <div class="partner-logo">🤝 Save the Children</div>
+          <div class="partner-logo">❤️ OXFAM</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- About Column -->
+          <div class="footer-col footer-brand">
+            <div class="footer-logo">
+              <i class="fas fa-hands-holding-child"></i>
+              <div>
+                <span class="footer-logo-main">African Children</span>
+                <span class="footer-logo-sub">Initiative</span>
+              </div>
+            </div>
+            <p class="footer-about">
+              Empowering African children through education, healthcare, nutrition,
+              and protection since 2009. Your support transforms generations.
+            </p>
+            <div class="footer-socials">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4 class="footer-col-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#programs">Our Programs</a></li>
+              <li><a href="#impact">Our Impact</a></li>
+              <li><a href="#stories">Stories</a></li>
+              <li><a href="#donate">Donate Now</a></li>
+            </ul>
+          </div>
+
+          <!-- Programs -->
+          <div class="footer-col">
+            <h4 class="footer-col-title">Programs</h4>
+            <ul class="footer-links">
+              <li><a href="#programs">Back to School</a></li>
+              <li><a href="#programs">Mobile Health Clinics</a></li>
+              <li><a href="#programs">Feed a Child Daily</a></li>
+              <li><a href="#programs">Clean Water Initiative</a></li>
+              <li><a href="#programs">Child Protection</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-col">
+            <h4 class="footer-col-title">Contact Us</h4>
+            <ul class="footer-contact">
+              <!-- ✅ FILL IN: Replace with your actual contact info -->
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>123 Charity Lane, Victoria Island, Lagos, Nigeria</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <span>+234 800 000 0000</span>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>info@africanchildreninitiative.org</span>
+              </li>
+              <li>
+                <i class="fas fa-globe"></i>
+                <span>www.africanchildreninitiative.org</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-content">
+          <p>
+            &copy; <span id="footerYear"></span> African Children Initiative.
+            All rights reserved. Registered Charity No. <!-- ✅ FILL IN: Your charity registration number -->
+          </p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       NOTIFICATION TOAST
+  ============================================================ -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ============================================================
+       COOKIE CONSENTu
+  ============================================================ -->
+  <div class="cookie-banner" id="cookieBanner" style="display:none;">
+    <div class="cookie-content">
+      <i class="fas fa-cookie-bite"></i>
+      <p>We use cookies to enhance your experience and track donation analytics. By continuing, you agree to our <a href="#">Privacy Policy</a>.</p>
+    </div>
+    <div class="cookie-actions">
+      <button class="btn btn-sm btn-outline" id="cookieDecline">Decline</button>
+      <button class="btn btn-sm btn-primary" id="cookieAccept">Accept</button>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       BACK TO TOP BUTTON
+  ============================================================ -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Main JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+</html>
