@@ -17,7 +17,7 @@ const CONFIG = {
   // ✅ FILL IN: Your Paystack PUBLIC key
   // Get it from: https://dashboard.paystack.com/#/settings/developer
   // Test key starts with:  pk_test_
-  // Live key starts with:  pk_live_
+  // Live key starts with:  pk_live_1d48c7981d1abf7396474499a369ab7bef17740a
   PAYSTACK_PUBLIC_KEY: 'pk_test_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
 
   // ✅ FILL IN: Your website URL (for social sharing)
