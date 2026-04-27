@@ -48,28 +48,28 @@ const CONFIG = {
 ================================================================ */
 const DONATION_PLANS = [
   {
-    plan_code:   'PLN_xxxxxxxxxx1',  // ✅ FILL IN
+    plan_code:   'PLN_u0jdaznm910lytx',  // ✅ FILL IN
     name:        'Seed Supporter',
     amount:      1000,               // ₦1,000
     interval:    'monthly',
     description: 'Feed a child for a week every month',
   },
   {
-    plan_code:   'PLN_xxxxxxxxxx2',  // ✅ FILL IN
+    plan_code:   'PLN_gwpnebkg6kvnyig',  // ✅ FILL IN
     name:        'Growth Champion',
     amount:      2500,               // ₦2,500
     interval:    'monthly',
     description: 'Provide school supplies monthly',
   },
   {
-    plan_code:   'PLN_xxxxxxxxxx3',  // ✅ FILL IN
+    plan_code:   'PLN_qktc1il1x27ijgy',  // ✅ FILL IN
     name:        'Hope Builder',
     amount:      5000,               // ₦5,000
     interval:    'monthly',
     description: 'Full monthly food pack for one child',
   },
   {
-    plan_code:   'PLN_xxxxxxxxxx4',  // ✅ FILL IN
+    plan_code:   'PLN_vvmfwkaerl655rf',  // ✅ FILL IN
     name:        'Future Maker',
     amount:      10000,              // ₦10,000
     interval:    'monthly',
