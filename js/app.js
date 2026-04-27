@@ -16,9 +16,9 @@
 const CONFIG = {
   // ✅ FILL IN: Your Paystack PUBLIC key
   // Get it from: https://dashboard.paystack.com/#/settings/developer
-  // Test key starts with:  pk_test_
+  // Test key starts with:  pk_test_29a9fef90b750ef1c90893a0b96f390c23b4e22c
   // Live key starts with:  pk_live_1d48c7981d1abf7396474499a369ab7bef17740a
-  PAYSTACK_PUBLIC_KEY: 'pk_test_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+  PAYSTACK_PUBLIC_KEY: 'pk_live_1d48c7981d1abf7396474499a369ab7bef17740a',
 
   // ✅ FILL IN: Your website URL (for social sharing)
   SITE_URL: 'https://no-group.github.io/African-Children-Initiative/',
