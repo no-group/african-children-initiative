@@ -21,7 +21,7 @@ const CONFIG = {
   PAYSTACK_PUBLIC_KEY: 'pk_test_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
 
   // ✅ FILL IN: Your website URL (for social sharing)
-  SITE_URL: 'https://YOUR_USERNAME.github.io/african-children-initiative',
+  SITE_URL: 'https://no-group.github.io/African-Children-Initiative/',
 
   // Organization details
   ORG_NAME:    'African Children Initiative',
